@@ -6,7 +6,7 @@ const generateReportBtn = document.querySelector('.generate-report-btn')
 
 generateReportBtn.addEventListener('click', fetchStockData)
 
-<! ===== importing API environment - can use ploygon.io or foursquare or yelp - save as environment variable ===== !>
+<! ===== importing API environment - can use scrimba (save your api keys) or foursquare or yelp - save as environment variable ===== !>
 
     import OpenAI from 'openai'
 
