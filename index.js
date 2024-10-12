@@ -12,10 +12,13 @@ generateReportBtn.addEventListener('click', fetchStockData)
 
 const openai = new OpenAI({
     dangerouslyAllowBrowser: true
-    apiKey: ''
+    apiKey: '123456example'
 }) 
 
-const url = `https://api.polygon.io/v2/aggs/ticker/${ticker}/range/1/day/${dates.startDate}/${dates.endDate}?apiKey=`
+<! ==== retrieving envirnment variable === !>
+console.log(openai.key)
+
+const url = `https://api.polygon.io/v2/aggs/ticker/${ticker}/range/1/day/${dates.startDate}/${dates.endDate}?apiKey=1234456example`
         
 <! ===== end of importing API environment ===== !>
 
