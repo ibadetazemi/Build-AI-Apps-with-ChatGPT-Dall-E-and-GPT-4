@@ -12,7 +12,7 @@ generateReportBtn.addEventListener('click', fetchStockData)
 
 const openai = new OpenAI({
     dangerouslyAllowBrowser: true
-    apiKey: ''
+    apiKey: 'ab-dvhjeruiwqrtpoq256730wscx8au'
 }) 
 
 <! ===== end of importing API environment ===== !>
