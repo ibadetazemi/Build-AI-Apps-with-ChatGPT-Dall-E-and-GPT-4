@@ -6,6 +6,17 @@ const generateReportBtn = document.querySelector('.generate-report-btn')
 
 generateReportBtn.addEventListener('click', fetchStockData)
 
+<! ===== importing API environment ===== !>
+
+    import OpenAI from 'openai'
+
+const openai = new OpenAI({
+    dangerouslyAllowBrowser: true
+}) 
+
+<! ===== end of importing API environment ===== !>
+
+
 document.getElementById('ticker-input-form').addEventListener('submit', (e) => {
     e.preventDefault()
     const tickerInput = document.getElementById('ticker-input')
